@@ -43,6 +43,24 @@ class ViewController: UIViewController {
     // Sound Properties
     var correctSound: SystemSoundID = 0
     var incorrectSound: SystemSoundID = 1
+    
+    //Linked Connections
+    @IBOutlet weak var view1: UIView!
+    @IBOutlet weak var view2: UIView!
+    @IBOutlet weak var view3: UIView!
+    @IBOutlet weak var view4: UIView!
+    @IBOutlet weak var view1DownButton: UIButton!
+    @IBOutlet weak var view2UpButton: UIButton!
+    @IBOutlet weak var view2DownButton: UIButton!
+    @IBOutlet weak var view3UpButton: UIButton!
+    @IBOutlet weak var view3DownButton: UIButton!
+    @IBOutlet weak var view4UpButton: UIButton!
+    @IBOutlet weak var timerLabel: UILabel!
+    @IBOutlet weak var eventListed1: UIButton!
+    @IBOutlet weak var eventListed2: UIButton!
+    @IBOutlet weak var eventListed3: UIButton!
+    @IBOutlet weak var eventListed4: UIButton!
+    
 
     
     
